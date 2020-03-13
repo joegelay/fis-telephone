@@ -15,7 +15,7 @@ function renderCharacters(json) {
       img.src = character.imageURL
 
       const span = document.createElement('span')
-      span.innerHTML = `${character.name} - ${character.phone}`
+      span.innerHTML = `${character.name}: ${character.phone}`
 
       const p = document.createElement('p')
       p.innerHTML = character.message
